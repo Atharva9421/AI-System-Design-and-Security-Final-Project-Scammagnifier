@@ -1,1 +1,0 @@
-export SELENIUM_ADDRESS="http://selenium-grid:4444"
