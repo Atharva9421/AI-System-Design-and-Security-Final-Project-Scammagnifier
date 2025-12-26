@@ -1,0 +1,45 @@
+# --- Core & Utilities ---
+jsonlines==4.0.0
+regex==2024.9.11
+chardet==5.2.0
+python-dotenv==1.0.1
+setuptools==70.0.0
+
+# --- Data Processing & ML ---
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+joblib==1.4.2
+pickle5==0.0.12
+langid==1.1.6
+
+# --- Web / HTML Analysis ---
+beautifulsoup4==4.12.3
+lxml==5.3.0
+requests==2.32.3
+urllib3==2.2.3
+tldextract==5.1.2
+validators==0.33.0
+IP2Location==8.10.2
+
+# --- Automation & Selenium ---
+selenium==4.24.0
+webdriver-manager==4.0.2
+undetected-chromedriver==3.5.5
+
+# --- Database (AutoCheckout) ---
+pymongo==4.10.1
+mongoengine==0.29.1
+
+# --- Web Framework (Shop Classifier / API) ---
+flask==3.0.3
+
+# --- Visualization / Debug (optional but safe) ---
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# --- Optional helpers ---
+tqdm==4.66.5
+dnspython==2.7.0
+psutil==6.0.0
+requests-html==0.10.0

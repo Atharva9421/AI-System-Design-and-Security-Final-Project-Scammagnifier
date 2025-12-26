@@ -1,0 +1,54 @@
+URL,Label,LP,SP,Category,Confidence,autocheckout_status
+aliexpress.com,legit,0.7,0.3,General Merchandise,0.8,processed
+amazon.ca,legit,0.7,0.3,General Merchandise,0.8,processed
+amazon.co.jp,legit,0.9,0.1,General Merchandise,0.8,processed
+amazon.com,legit,0.9,0.1,General Merchandise,0.8,processed
+amazon.de,legit,0.9,0.1,General Merchandise,0.8,processed
+amazon.fr,legit,0.9,0.1,General Merchandise,0.8,processed
+amazon.in,legit,0.9,0.1,General Merchandise,0.8,processed
+babyworld.se,legit,0.9,0.1,General Merchandise,0.8,processed
+bestbuy.com,legit,0.7,0.3,Electronics,0.87,processed
+canna-seeds.com.ua,scam,0.45,0.55,General Merchandise,0.8,processed
+caraudio24.de,legit,0.9,0.1,General Merchandise,0.8,processed
+closetlondon.com,legit,0.7,0.3,General Merchandise,0.8,processed
+eldiablotranquilo.com,legit,0.9,0.1,General Merchandise,0.8,processed
+etsy.com,,,,General Merchandise,0.8,not_processed
+h2obungalow.com,legit,0.9,0.1,General Merchandise,0.8,processed
+handembroidery.com,,,,General Merchandise,0.8,not_processed
+hardyofficial.com,legit,0.9,0.1,General Merchandise,0.8,processed
+homedepot.com,legit,0.7,0.3,Home,0.87,processed
+houseofstori.com,legit,0.9,0.1,General Merchandise,0.8,processed
+ikea.com,legit,0.9,0.1,General Merchandise,0.8,processed
+islideusa.com,,,,General Merchandise,0.8,not_processed
+jojomommy.com,legit,0.9,0.1,General Merchandise,0.8,processed
+kaspi.kz,legit,0.9,0.1,General Merchandise,0.8,processed
+lilsoles.ca,legit,0.7,0.3,General Merchandise,0.8,processed
+luminarc.com,legit,0.7,0.3,General Merchandise,0.8,processed
+magicsneaker.com,legit,0.9,0.1,General Merchandise,0.8,processed
+meethue.com,legit,0.9,0.1,General Merchandise,0.8,processed
+mignonfaget.com,legit,0.9,0.1,General Merchandise,0.8,processed
+mini.com.au,legit,0.9,0.1,General Merchandise,0.8,processed
+nike.com,legit,0.9,0.1,Fashion,0.87,processed
+onlinemedicinebazar.com,scam,0.45,0.55,General Merchandise,0.8,processed
+ozon.ru,legit,0.7,0.3,General Merchandise,0.8,processed
+ozone.ru,legit,0.7,0.3,General Merchandise,0.8,processed
+paclights.com,legit,0.9,0.1,General Merchandise,0.8,processed
+palmplaystore.com,scam,0.45,0.55,General Merchandise,0.8,processed
+pinkmartinicollection.com,,,,General Merchandise,0.8,not_processed
+pinko-kz.kz,scam,0.45,0.55,General Merchandise,0.8,processed
+potenzapothekede.com,legit,0.9,0.1,General Merchandise,0.8,processed
+rakuten.co.jp,legit,0.9,0.1,General Merchandise,0.8,processed
+rakuten.com,legit,0.9,0.1,General Merchandise,0.8,processed
+shopee.co.id,scam,0.2,0.8,General Merchandise,0.8,processed
+shopify.com,,,,General Merchandise,0.8,not_processed
+skroutz.gr,,,,General Merchandise,0.8,not_processed
+target.com,legit,0.7,0.3,General Merchandise,0.8,processed
+temu.com,legit,0.9,0.1,General Merchandise,0.8,processed
+thegreennugget.com,,,,General Merchandise,0.8,not_processed
+thelightingcontroller.com,,,,General Merchandise,0.8,not_processed
+thetravelwrapcompany.com,legit,0.7,0.3,Electronics,0.87,processed
+travelcoffeebook.com,legit,0.9,0.1,General Merchandise,0.8,processed
+trendyol.com,legit,0.9,0.1,General Merchandise,0.8,processed
+versagripps.com,legit,0.9,0.1,General Merchandise,0.8,processed
+walmart.com,legit,0.7,0.3,General Merchandise,0.8,processed
+wildberries.ru,legit,0.7,0.3,General Merchandise,0.8,processed
