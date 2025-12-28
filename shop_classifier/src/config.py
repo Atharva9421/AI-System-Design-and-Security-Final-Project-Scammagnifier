@@ -1,3 +1,5 @@
 import os
 
-t_cach = os.environ['TRANSFORMERS_CACHE','/app/data/hf_cache/']
+selenium_address = os.getenv("SELENIUM_ADDRESS", "http://127.0.0.1:4444/wd/hub")
+number_proc = int(os.getenv("NUMBER_PROC",1))
+cache_mode = bool(os.getenv("CACHE_MODE",False))
