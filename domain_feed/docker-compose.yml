@@ -1,0 +1,49 @@
+# **************** Domain monitoring application ****************
+# This application used to monitor life cycle of domain
+# it has multiple service : MongoDB, RabbitMQ , Load balancer , Application
+version: '3.8'
+services:
+# **************** MongoDB ****************
+  mongodb:
+    image: mongo:latest
+    container_name: mongodatabase_checkout
+    ports:
+      - "27020:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: secret
+    volumes:
+      - volume-checkout:/data/db
+    networks:
+      - app-network-checkout
+
+
+# **************** Application ****************
+  app:
+    build: .
+    container_name: checkout_data
+    environment:
+      MONGO_USERNAME: mongoadmin
+      MONGO_PASSWORD: secret
+      MONGO_HOSTNAME: "10.90.78.133"
+      MONGO_PORT: 27020
+      MONGO_DB: mydatabase
+      SCHEDULER_JOB_INTERVAL: 86400
+      LIMIT: 20000
+    networks:
+      - app-network-checkout
+
+# **************** Volume ****************
+volumes:
+  volume-checkout:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/mnt/marzi/projects/checkout_db/volume'
+
+
+# **************** Network ****************
+networks:
+  app-network-checkout:
+    driver: bridge
