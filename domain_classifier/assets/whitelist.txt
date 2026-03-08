@@ -1,0 +1,9 @@
+google.com
+amazon.com
+ebay.com
+walmart.com
+newegg.com
+bestbuy.com
+target.com
+apple.com
+microsoft.com
